@@ -133,7 +133,7 @@ class main(object):
                     print("Nome locatorio: ", veiculos_alugados[x][2])
                     print("")
 
-                qual_excluir = int(input("Digite o codigo do aluguel que voce deseja excluir: "))
+                qual_excluir = int(input("Digite o codigo do aluguel que voce deseja liberar: "))
                 cont = False
                 for x in range(0, len(veiculos_alugados)):
                     if qual_excluir == veiculos[x][0]:
